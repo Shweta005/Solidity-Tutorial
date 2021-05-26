@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_investorName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_stationPurchased",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_stationCost",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_fee",
+						"type": "uint256"
+					}
+				],
+				"name": "registerInvestor",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "flag_",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_investorName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_stationPurchased",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_stationCost",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_fee",
+						"type": "uint256"
+					}
+				],
+				"name": "removeInvestor",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "flag_",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EV-charging.sol": "evCharging"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EV-charging.sol": {
+			"keccak256": "0x61e41b4694e6e3ebe0ab363acd1aafa41fb64bff5646c7c42f64e5d730d3aa9c",
+			"urls": [
+				"bzz-raw://1a23487d0230a745eb7b1ec94681a7c13c358819a7d5c8b33bd780068cc023f3",
+				"dweb:/ipfs/QmQLewnwHu1AK2EvvzPdgNLEi1QAut8L9ZWjouaJJGoZJ8"
+			]
+		}
+	},
+	"version": 1
+}

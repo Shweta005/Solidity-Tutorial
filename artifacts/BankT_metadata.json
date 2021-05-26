@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.2+commit.661d1103"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"data-types.sol": "BankT"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"data-types.sol": {
+			"keccak256": "0xf2b64b0ee82b3b5aa35848949e7464c2992f62e2f7f822f7107f881075e52501",
+			"urls": [
+				"bzz-raw://704f0659c04ec69cbc52a075d7b77299d139cb91316afc39ebe66d241193ad82",
+				"dweb:/ipfs/QmZsk4rL6QrXmhyv9kUKFPJcLPf2qxN32jh1wvid9UcU69"
+			]
+		}
+	},
+	"version": 1
+}

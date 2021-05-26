@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.2+commit.661d1103"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"data-types.sol": "BankTr"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"data-types.sol": {
+			"keccak256": "0x182b530772235e2af3779f7b3d13075b49a18b51732d7b0e151673f6144e0391",
+			"urls": [
+				"bzz-raw://e23b83c5ad63bf4c0eeadb542cbb483fe348acb64cd33d494028542cf17f73f7",
+				"dweb:/ipfs/QmXn9d2iRJkNGCdg693EriHCM6wTHRqikmFBh7vuuWJawo"
+			]
+		}
+	},
+	"version": 1
+}
