@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.2+commit.661d1103"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Art-Auction.sol": "ArtAuction"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Art-Auction.sol": {
+			"keccak256": "0xcaa8d435bd6dabf3b7186826023c51bb3fd5655483e0b395f521ccb63aa0240e",
+			"urls": [
+				"bzz-raw://e1bf282ff8ff249abb9f5171c2e16d9fd1a3b89da4178d4ad9fcb9373a0fde58",
+				"dweb:/ipfs/QmXTd3kzu2VhaDb1WG13aRJbFwe6ke7Ltp6J5cGiiQbNrK"
+			]
+		}
+	},
+	"version": 1
+}
