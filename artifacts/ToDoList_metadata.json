@@ -1,0 +1,175 @@
+{
+	"compiler": {
+		"version": "0.8.2+commit.661d1103"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_taskName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_due",
+						"type": "uint256"
+					}
+				],
+				"name": "addTask",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_taskId",
+						"type": "uint256"
+					}
+				],
+				"name": "completeTask",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_taskId",
+						"type": "uint256"
+					}
+				],
+				"name": "deleteTask",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tasks",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "taskId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "taskCreationOn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "taskName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "taskDeadline",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCompleted",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "ttask",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_taskId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_due",
+						"type": "uint256"
+					}
+				],
+				"name": "updateDue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ToDoList.sol": "ToDoList"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ToDoList.sol": {
+			"keccak256": "0xafffbe7298c8a08a4a89f32d8d0e7e5b7f79150ad69c59df92d04e4e82d6ac14",
+			"urls": [
+				"bzz-raw://1cf6c48c511f3df5bb16731e1dcba61590314a269af72a404e78b6f2f7045ccf",
+				"dweb:/ipfs/QmaRRvbKw4Cp1fa5KL4yxzxdYTFRMMWAdpeDxu73TcKw3P"
+			]
+		}
+	},
+	"version": 1
+}
