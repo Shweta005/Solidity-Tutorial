@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCurruntRole",
+				"outputs": [
+					{
+						"internalType": "enum SupplyChain.Role",
+						"name": "_role",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pcount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_pName",
+						"type": "string"
+					}
+				],
+				"name": "placedOrder",
+				"outputs": [
+					{
+						"internalType": "enum SupplyChain.ProductState",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "product",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "pId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "pName",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "status",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum SupplyChain.Role",
+						"name": "_role",
+						"type": "uint8"
+					}
+				],
+				"name": "setRole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SupplyChainManagement.sol": "SupplyChain"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SupplyChainManagement.sol": {
+			"keccak256": "0x0461d1b05c5347f119b4b00dc620006476e1bebb5ee298673acc79786d03b2d6",
+			"urls": [
+				"bzz-raw://6ee163e6bd2649ec4d25ecf431264e901813580e9ceaee4c2f8f35250808b279",
+				"dweb:/ipfs/QmaGrNRaTDuJaJJWPs97itMP9RferdzZis4igV3RL2YF1z"
+			]
+		}
+	},
+	"version": 1
+}
