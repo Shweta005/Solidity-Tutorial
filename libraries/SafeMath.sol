@@ -53,7 +53,7 @@ contract Maths{
          
      }
      
-     //It destriy's contract when contract bal > 15 ether
+     //It destroy's contract when contract bal > 15 ether
      receive() external payable{
         require(msg.value%(1 ether) == 0 , "Only in whole numbers");
         if(address(this).balance > (15 * 1 ether)){
