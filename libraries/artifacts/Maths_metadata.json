@@ -131,6 +131,25 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "forLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -169,10 +188,10 @@
 			]
 		},
 		"libraries/SafeMath.sol": {
-			"keccak256": "0xe031cd0691644270ec736ecbd7a464597fcf13d208541be34d8760f6f866c7e1",
+			"keccak256": "0x7bed160fd91a6f06dfb662acc23e1d966ba543d254e6356473e6f0b88c03f908",
 			"urls": [
-				"bzz-raw://39ee8ede14ca4e0eb085fb35bc857f48f85c74b11815ac390dbf09cb4a4bec23",
-				"dweb:/ipfs/QmNxXXsqEVAnHaiWGCHggQB74yuiX6b1fyyFmpFehyHR85"
+				"bzz-raw://909a47df7c0bea13743fbef3637b9e3099bb1769139b12c4f707fcb48e23360f",
+				"dweb:/ipfs/QmcgAvVQ4cdj5gufW6qyboqndCnxuW5H7aRAwPJh7r9yzk"
 			]
 		}
 	},

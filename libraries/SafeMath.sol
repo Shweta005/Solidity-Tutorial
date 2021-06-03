@@ -5,11 +5,24 @@ pragma solidity ^0.7.0;
 contract Maths{
     
      using SafeMath for uint256;
-     uint immutable notToBeAdded; 
+     uint immutable notToBeAdded; //multiple of 5
      
      constructor (uint _notToBeAdded) {
         notToBeAdded = _notToBeAdded;
     }
+     
+      function forLoop(uint _num) public view returns(uint) {
+        uint sum;
+        for(uint i; i<_num; i++){
+            if(i%notToBeAdded == 0){
+                continue;
+            }
+            sum += i;
+        }
+        return sum;
+    }
+     
+     
      
      function Add(uint256 a, uint256 b) public pure returns(bool, uint256){
          return a.tryAdd(b);
