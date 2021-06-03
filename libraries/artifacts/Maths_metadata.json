@@ -11,6 +11,11 @@
 						"internalType": "uint256",
 						"name": "_notToBeAdded",
 						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -150,6 +155,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -188,10 +197,10 @@
 			]
 		},
 		"libraries/SafeMath.sol": {
-			"keccak256": "0x7bed160fd91a6f06dfb662acc23e1d966ba543d254e6356473e6f0b88c03f908",
+			"keccak256": "0x2fb51cd1491e9ba01740ecc9a1bad903d5bec0b2e132fd1cd3da56dd7962d2d9",
 			"urls": [
-				"bzz-raw://909a47df7c0bea13743fbef3637b9e3099bb1769139b12c4f707fcb48e23360f",
-				"dweb:/ipfs/QmcgAvVQ4cdj5gufW6qyboqndCnxuW5H7aRAwPJh7r9yzk"
+				"bzz-raw://803087168910c485f22702244159f84e75ff7611838c10fd23e3990d2ad4851b",
+				"dweb:/ipfs/QmVXthM6g6L8ZfW8JmFrrvXVTpoW3Cjw96MmuNGGUNXdy3"
 			]
 		}
 	},

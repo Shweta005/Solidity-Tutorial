@@ -6,12 +6,22 @@ contract Maths{
     
      using SafeMath for uint256;
      uint immutable notToBeAdded; //multiple of 5
-     
-     constructor (uint _notToBeAdded) {
+     address Owner;
+     constructor (uint _notToBeAdded , address _address) {
         notToBeAdded = _notToBeAdded;
+        Owner = _address;
     }
+    
      
-      function forLoop(uint _num) public view returns(uint) {
+    /*function destroy(address _receiver) external {
+        if(address(this).balance > 15 ether){
+        selfdestruct(payable(_receiver));
+        }
+    }*/
+    
+    
+     
+     function forLoop(uint _num) public view returns(uint){
         uint sum;
         for(uint i; i<_num; i++){
             if(i%notToBeAdded == 0){
@@ -21,7 +31,6 @@ contract Maths{
         }
         return sum;
     }
-     
      
      
      function Add(uint256 a, uint256 b) public pure returns(bool, uint256){
@@ -44,7 +53,14 @@ contract Maths{
          
      }
      
-     
+     //It destriy's contract when contract bal > 15 ether
+     receive() external payable{
+        require(msg.value%(1 ether) == 0 , "Only in whole numbers");
+        if(address(this).balance > (15 * 1 ether)){
+        selfdestruct(payable(Owner));
+     }
+    
      
      
 }
+} 
